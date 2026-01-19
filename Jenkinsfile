@@ -6,7 +6,7 @@ pipeline {
         stage('Clone GitHub Repo') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your-username/one-tier-docker-app.git'
+                url: 'https://github.com/sadish2006/one-tier-application.git'
             }
         }
 
